@@ -1,0 +1,12 @@
+Client 127.0.0.1 attempted connection with username: testuser, password: testestpass
+Client 127.0.0.1 attempted connection with username: testuser, password: testpass
+Command b'ls'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b'\x03ls -la'executed by 127.0.0.1
+Client 127.0.0.1 attempted connection with username: testuser, password: passtest
+Client 127.0.0.1 attempted connection with username: testuser, password: passtest
+Client 127.0.0.1 attempted connection with username: testuser, password: testpass
+Command b'ls'executed by 127.0.0.1
+Command b'whoami'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b'rm rf'executed by 127.0.0.1
