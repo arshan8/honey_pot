@@ -3,3 +3,7 @@
 127.0.0.1, testuser, passtest
 127.0.0.1, testuser, passtest
 127.0.0.1, testuser, testpass
+127.0.0.1, username, test_pass
+127.0.0.1, username, pass_test
+127.0.0.1, testuser, testpass
+127.0.0.1, testuser, testpass

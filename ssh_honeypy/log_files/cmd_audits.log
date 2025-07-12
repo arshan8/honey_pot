@@ -1,12 +1,1 @@
-Client 127.0.0.1 attempted connection with username: testuser, password: testestpass
-Client 127.0.0.1 attempted connection with username: testuser, password: testpass
-Command b'ls'executed by 127.0.0.1
-Command b'pwd'executed by 127.0.0.1
-Command b'\x03ls -la'executed by 127.0.0.1
-Client 127.0.0.1 attempted connection with username: testuser, password: passtest
-Client 127.0.0.1 attempted connection with username: testuser, password: passtest
-Client 127.0.0.1 attempted connection with username: testuser, password: testpass
-Command b'ls'executed by 127.0.0.1
-Command b'whoami'executed by 127.0.0.1
-Command b'pwd'executed by 127.0.0.1
-Command b'rm rf'executed by 127.0.0.1
+Command b'cat jum\t\t\t\t\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08pbiox\x7f\x08'executed by 127.0.0.1
