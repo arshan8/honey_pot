@@ -1,1 +1,19 @@
 Command b'cat jum\t\t\t\t\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08\x08pbiox\x7f\x08'executed by 127.0.0.1
+Client 127.0.0.1 attempted connection with username: testuser, password: test-pass
+Client 127.0.0.1 attempted connection with username: testuser, password: testpass
+Command b'ls'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Client 127.0.0.1 attempted connection with username: testuser, password: testpass
+Command b'ls'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b'he\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7fd\x7f\x7f\x7f\x7f'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b't\x7f\x7flap'executed by 127.0.0.1
+Client 127.0.0.1 attempted connection with username: testuser, password: doraemoneater
+Client 127.0.0.1 attempted connection with username: testuser, password: testpass
+Command b'dogogogo'executed by 127.0.0.1
+Command b'dha'executed by 127.0.0.1
+Command b'pwd'executed by 127.0.0.1
+Command b';\x7fl\x7f\x7fs'executed by 127.0.0.1
+Command b'whoami'executed by 127.0.0.1
+Command b'\x03\x03s]\x7fexi\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f\x7f'executed by 127.0.0.1

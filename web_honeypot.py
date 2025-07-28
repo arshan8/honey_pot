@@ -1,17 +1,17 @@
-# Import library dependencies.
-from flask import Flask, render_template, request, redirect, url_for
+from pathlib import Path
+import os
 import logging
 from logging.handlers import RotatingFileHandler
-from dashboard_data_parser import * 
-from pathlib import Path
+from flask import Flask, render_template, request, redirect, url_for
 
-# Logging Format.
 logging_format = logging.Formatter('%(asctime)s %(message)s')
 
-base_dir = base_dir = Path(__file__).parent.parent
+base_dir = Path(__file__).parent.parent
 http_audits_log_local_file_path = base_dir / 'ssh_honeypy' / 'log_files' / 'http_audit.log'
 
-# HTTP Logger.
+http_audits_log_local_file_path.parent.mkdir(parents=True, exist_ok=True)
+
+
 funnel_logger = logging.getLogger('HTTPLogger')
 funnel_logger.setLevel(logging.INFO)
 funnel_handler = RotatingFileHandler(http_audits_log_local_file_path, maxBytes=2000, backupCount=5)
